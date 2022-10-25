@@ -38,6 +38,9 @@
     "url": "https://github.com/mightyorange/react-native-actionsheet/issues"
   },
   "homepage": "https://github.com/mightyorange/react-native-actionsheet#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "peerDependencies": {
     "prop-types": ">=15.4.0",
     "react": ">=15.4.0",
