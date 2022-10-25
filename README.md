@@ -1,5 +1,5 @@
 # react-native-actionsheet
-[![npm](https://img.shields.io/npm/v/@alessiocancian/react-native-actionsheet)](https://www.npmjs.com/package/@alessiocancian/react-native-actionsheet)\
+[![npm](https://img.shields.io/npm/v/@mightyorange/react-native-actionsheet)](https://www.npmjs.com/package/@mightyorange/react-native-actionsheet)\
 Cross platform ActionSheet. This component implements a custom ActionSheet  and provides the same way to drawing it on the defferent platforms(iOS and Android). Actually, In order to keep the best effect, it still uses the ActionSheetIOS on iOS.
 
 <table>
@@ -49,13 +49,13 @@ A similar UI is available for Android too by passing `theme="ios"`:
 ## Install
 
 ```
-npm i -S @alessiocancian/react-native-actionsheet
+npm i -S @mightyorange/react-native-actionsheet
 ```
 
 ## Usage
 
 ```js
-import ActionSheet from '@alessiocancian/react-native-actionsheet'
+import ActionSheet from '@mightyorange/react-native-actionsheet'
 
 class Demo extends React.Component {
   showActionSheet = () => {
@@ -85,7 +85,7 @@ class Demo extends React.Component {
 so you can customize option and title
 
 ```js
-import { ActionSheetCustom as ActionSheet } from '@alessiocancian/react-native-actionsheet'
+import { ActionSheetCustom as ActionSheet } from '@mightyorange/react-native-actionsheet'
 
 const options = [
   'Cancel', 
@@ -119,7 +119,7 @@ class Demo extends React.Component {
 
 ### How to redesign style ?
 
-The style of ActionSheet is defined in [lib/styles.js](https://github.com/alessiocancian/react-native-actionsheet/blob/master/lib/styles.js). We can pass the `styles` prop to cover default style. See [Example](https://github.com/alessiocancian/react-native-actionsheet/blob/master/example/app/ExampleB.js#L48) .
+The style of ActionSheet is defined in [lib/styles.js](https://github.com/mightyorange/react-native-actionsheet/blob/master/lib/styles.js). We can pass the `styles` prop to cover default style. See [Example](https://github.com/mightyorange/react-native-actionsheet/blob/master/example/app/ExampleB.js#L48) .
 
 ```javascript
 // example
@@ -142,7 +142,7 @@ const styles = {
 
 ## Props
 
-https://github.com/alessiocancian/react-native-actionsheet/blob/master/lib/options.js
+https://github.com/mightyorange/react-native-actionsheet/blob/master/lib/options.js
 
 <table>
     <tr>

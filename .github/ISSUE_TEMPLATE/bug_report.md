@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: alessiocancian
+assignees: mightyorange
 
 ---
 
@@ -26,7 +26,7 @@ assignees: alessiocancian
 
 | Library                                   | Version |
 | ----------------------------------------- | ------- |
-| @alessiocancian/react-native-actionsheet | x.x.x   |
+| @mightyorange/react-native-actionsheet | x.x.x   |
 | react-native                              | x.x.x   |
 
 ## Steps To Reproduce
